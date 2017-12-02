@@ -12,4 +12,5 @@ urlpatterns = [
 
     url(r'^home/$', views.home, name =  'home'),
     url(r'^profile/$', views.profile, name =  'profile'),
+    url(r'^galeria/$', views.galeria, name =  'galeria'),
 ]
